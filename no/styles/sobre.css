@@ -1,0 +1,106 @@
+/* Define o estilo geral do corpo da página, removendo margens e padding, e definindo a cor de fundo */
+body {
+    font-family: 'Inter', sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    background-color: #ffffff; /* Define a cor de fundo do corpo */
+  }
+  
+  /* Centraliza o conteúdo dentro de um contêiner de 80% da largura da tela */
+  .container {
+    width: 80%; /* Define a largura do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  }
+  
+  /* Estiliza a seção "Sobre nós", adicionando padding e definindo o fundo como branco */
+  #about-us {
+    padding: 50px 0; /* Adiciona espaçamento superior e inferior */
+    background-color: #ffffff; /* Define o fundo da seção como branco */
+  }
+  
+  /* Centraliza o título e subtítulo dentro do cabeçalho da seção */
+  .about-header {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 40px; /* Adiciona margem inferior */
+  }
+  
+  /* Define o estilo do título principal da seção "Sobre nós" */
+  .about-header h1 {
+    font-size: 36px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  /* Define o estilo do subtítulo da seção "Sobre nós" */
+  .about-header p {
+    font-size: 18px; /* Define o tamanho da fonte do subtítulo */
+    color: #666; /* Define a cor do subtítulo */
+    margin-top: 10px; /* Adiciona margem superior */
+  }
+  
+  /* Layout flexível para alinhar imagem e texto lado a lado */
+  .about-content {
+    display: flex; /* Usando o modelo flexbox */
+    justify-content: space-between; /* Espaça os itens uniformemente */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    margin-top: 30px; /* Adiciona margem superior */
+  }
+  
+  /* Estilo da imagem, controlando seu tamanho e ajuste dentro do contêiner */
+  .about-image img {
+    width: 100%; /* Define a largura da imagem como 100% do contêiner */
+    max-width: 550px; /* Define a largura máxima da imagem */
+    height: 100%; /* Define a altura da imagem para 100% do contêiner */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    object-fit: cover; /* Faz com que a imagem cubra o espaço sem distorcer */
+  }
+  
+  /* Garante que os itens na seção de texto ocupem o mesmo espaço de altura da imagem */
+  .about-content {
+    display: flex; /* Usando flexbox para layout */
+    justify-content: space-between; /* Espaça os itens uniformemente */
+    align-items: stretch; /* Faz os itens esticarem na mesma altura */
+    margin-top: 30px; /* Adiciona margem superior */
+  }
+  
+  /* Estilo para o bloco de texto, ajustando largura e alinhamento */
+  .about-text {
+    width: 45%; /* Define a largura do texto */
+    display: flex; /* Usando flexbox para layout */
+    flex-direction: column; /* Organiza o conteúdo de texto verticalmente */
+    justify-content: space-between; /* Distribui o conteúdo verticalmente */
+  }
+  
+  /* Estilo para o título dentro do texto */
+  .about-text h2 {
+    font-size: 28px; /* Define o tamanho do título */
+    margin-top: 20px; /* Adiciona margem superior */
+    color: #222; /* Define a cor do título */
+  }
+  
+  /* Estilo para os parágrafos dentro do texto */
+  .about-text p {
+    font-size: 16px; /* Define o tamanho da fonte dos parágrafos */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
+    color: #444; /* Define a cor do texto */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+  }
+  
+  /* Remove os marcadores da lista */
+  .about-text ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding-left: 0; /* Remove o padding à esquerda */
+  }
+  
+  /* Estilo para os itens de lista */
+  .about-text ul li {
+    font-size: 16px; /* Define o tamanho da fonte dos itens da lista */
+    margin-bottom: 10px; /* Adiciona margem inferior entre os itens */
+    color: #444; /* Define a cor do texto dos itens */
+  }
+  
+  /* Deixa os valores dentro da lista em negrito */
+  .about-text ul li strong {
+    font-weight: bold; /* Deixa o texto em negrito */
+  }
+  

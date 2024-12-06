@@ -1,0 +1,23 @@
+/* Estilo do Footer */
+footer {
+    background-color: var(--footer-bg-color);  /* Defina a cor de fundo do footer */
+    
+}
+
+.rights {
+    background-color: var(--text-color);  /* Cor de fundo da área "rights" */
+    text-align: center;  /* Alinha o texto ao centro */
+    color: var(--bg-color);  /* Cor do texto */
+    font-size: 14px;  /* Tamanho da fonte */
+    padding: 32px 0;  /* Espaçamento interno no topo e embaixo */
+}
+
+footer .container {
+    text-align: center;  /* Alinha o conteúdo dentro da "container" ao centro */
+}
+
+footer h5 {
+    font-weight: 700;  /* Peso da fonte do título */
+    color:rgb(179, 14, 14);  /* Cor do texto */
+    margin-bottom: 0;  /* Remove a margem inferior */
+}
